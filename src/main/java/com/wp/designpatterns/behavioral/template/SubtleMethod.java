@@ -1,0 +1,23 @@
+package com.wp.designpatterns.behavioral.template;
+
+/**
+ * @Description
+ * @Author wangpeng
+ * @Date 2019/4/22 10:02
+ */
+public class SubtleMethod extends StealingMethod {
+    @Override
+    protected String pickTarget() {
+        return "shop keeper";
+    }
+
+    @Override
+    protected void confuseTarget(String target) {
+        System.out.println("Approach the " + target + " with tears running and hug him!");
+    }
+
+    @Override
+    protected void stealTheItem(String target) {
+        System.out.println("While in close contact grab the " + target + "'s wallet.");
+    }
+}
