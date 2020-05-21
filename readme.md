@@ -2,32 +2,32 @@
 
 ## 23 design patterns 23种设计模式 ##
 
-### [creational 创建型模式](./creational) ###
+### [creational 创建型模式](src/main/java/com/wp/designpatterns/creational) ###
 
-* [abstract factory 抽象工厂模式](./creational/abstractfactory)
-* [singleton 单例模式](./creational/singleton)
-* [builder 建造者模式](./creational/builder)
-* [prototype 原型模式](./creational/prototype)
+* [abstract factory 抽象工厂模式](src/main/java/com/wp/designpatterns/creational/abstractfactory)
+* [singleton 单例模式](src/main/java/com/wp/designpatterns/creational/singleton)
+* [builder 建造者模式](src/main/java/com/wp/designpatterns/creational/builder)
+* [prototype 原型模式](src/main/java/com/wp/designpatterns/creational/prototype)
 
-### [Structural 构建型模式](./structural) ###
+### [Structural 构建型模式](src/main/java/com/wp/designpatterns/structural) ###
 
-* [adapter 适配器模式](./structural/adapter)
-* [decorator 装饰器模式](./structural/decorator)
-* [bridge 桥接模式](./structural/bridge)
-* [facade 外观模式](./structural/facade)
-* [proxy 代理模式](./structural/proxy)
-* [filter 过滤器模式](./structural/filter)
-* [composite 组合模式](./structural/composite)
-* [flyweight 享元模式](./structural/flyweight)
+* [adapter 适配器模式](src/main/java/com/wp/designpatterns/structural/adapter)
+* [decorator 装饰器模式](src/main/java/com/wp/designpatterns/structural/decorator)
+* [bridge 桥接模式](src/main/java/com/wp/designpatterns/structural/bridge)
+* [facade 外观模式](src/main/java/com/wp/designpatterns/structural/facade)
+* [proxy 代理模式](src/main/java/com/wp/designpatterns/structural/proxy)
+* [filter 过滤器模式](src/main/java/com/wp/designpatterns/structural/filter)
+* [composite 组合模式](src/main/java/com/wp/designpatterns/structural/composite)
+* [flyweight 享元模式](src/main/java/com/wp/designpatterns/structural/flyweight)
 
 ### Behavioral 行为型模型 ###
 
 这些设计模式特别关注对象之间的通信。
 
-* [chain of responsibility 责任链模式](./behavioral/chainofresponsibility)
-* [observer 观察者模式](./behavioral/observer)
-* [template 模板模式](./behavioral/template)
-* [command 命令模式](./behavioral/command)
+* [chain of responsibility 责任链模式](src/main/java/com/wp/designpatterns/behavioral/chainofresponsibility)
+* [observer 观察者模式](src/main/java/com/wp/designpatterns/behavioral/observer)
+* [template 模板模式](src/main/java/com/wp/designpatterns/behavioral/template)
+* [command 命令模式](src/main/java/com/wp/designpatterns/behavioral/command)
 * **interpreter 解释器模式 :** 给定一个语言，定义它的文法表示，并定义一个解释器，这个解释器使用该标识来解释语言中的句子
 * **iterator 迭代器模式 :** 集合中含有迭代器：分离了集合对象的遍历行为，抽象出一个迭代器类来负责，无须暴露该对象的内部表示
 * **mediator 中介者模式 :** 对象与对象之间存在大量的关联关系，将对象之间的通信关联关系封装到一个中介类中单独处理，从而使其耦合松散，可以独立地改变它们之间的交互
